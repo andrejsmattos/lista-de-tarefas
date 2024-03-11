@@ -1,0 +1,36 @@
+.custom-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#container-lista {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.list-group-item {
+  font-size: 18px;
+  position: relative;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+#contador {
+  margin-top: 10px;
+}
