@@ -40,6 +40,10 @@ function renderizarLista() {
     span.textContent = tarefa.tituloDaTarefa;
     // span.className = tarefa.status ? "text-muted" : "";
 
+    if (tarefa.status) {
+      span.style.textDecoration = "line-through";
+    }
+
     let button = document.createElement("button");
     button.innerHTML = '<i class="fas fa-trash-alt"></i>';
     button.className = "btn btn-link remove-button";
@@ -55,15 +59,14 @@ function renderizarLista() {
     listaUl.appendChild(item);
     
 
-// Adiciona o evento de clique ao botão de remover
-button.addEventListener("click", function () {
-  const confirmaRemocao = confirm("Você tem certeza que deseja excluir esta tarefa?");
-  if (confirmaRemocao) {
-    removerTarefa(index);
-  } else {
+    // Adiciona o evento de clique ao botão de remover
+    button.addEventListener("click", function () {
+      const confirmaRemocao = confirm("Você tem certeza que deseja excluir esta tarefa?");
+      if (confirmaRemocao) {
+        removerTarefa(index);
+      } 
 
-  }
-});
+    });
 
   });
 
