@@ -1,8 +1,5 @@
-# lista-de-tarefas
-Lista de tarefas contendo a própria criação de tarefas, botão para remover a tarefa da lista, checkbox para marcar a tarefa como concluída e um contador de tarefas, que mostra quantas tarefas tem na lista. Tudo isso sempre com os dados salvos em Local Storage para não perdê-los ao fechar a página.
-
 # Lista de Tarefas
-Descrição do Projeto
+## Descrição do Projeto
 Este é um projeto simples de Lista de Tarefas desenvolvido em HTML, CSS e JavaScript. Ele permite que os usuários adicionem, visualizem e gerenciem suas tarefas diárias de forma prática e eficiente, mantendo os dados salvos em Local Storage para não perdê-los ao fechar a página.
 
 ## Funcionalidades
